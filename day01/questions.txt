@@ -1,0 +1,13 @@
+QUESTIONS:
+what is w3? Role of w3 in www?
+
+tasks:
+observe mastek website check every hyperlink.
+
+w3 schools same window and new window hyperlinks
+
+fonts been used in webpage.
+events been registered.
+
+how to create mouse hover submenu bootstrap
+

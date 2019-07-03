@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title> HOME </title>
+	
+	<script>
+	var count = [0,0,0,0];
+	function f2(event)
+	{
+	var imageId=event.target.id;
+	var index=imageId.substr(3);
+	count[index] = count[index]+1;
+	var span=document.getElementById("result"+index);
+	span.innerHTML=count[index];
+	}
+	</script>
+	</head>
+	
+	<body>
+	
+	<img id="img0" onclick="f2(event)" src="./images/download.jfif" />
+	Counter <span id="result0"></span>
+	<img id="img1" onclick="f2(event)" src="./images/imageService.jfif" />
+	Counter <span id="result1"></span>
+	<img id="img2" onclick="f2(event)" src="./images/download (1).jfif"/>
+	Counter <span id="result2"></span>
+	<img id="img3" onclick="f2(event)" src="./images/download.png" />
+	Counter <span id="result3"></span>
+	
+	</body>
+</html>
